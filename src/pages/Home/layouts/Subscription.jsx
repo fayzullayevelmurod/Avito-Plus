@@ -16,7 +16,7 @@ export default function Subscription() {
             Для бизнеса
           </Box>
         </Heading>
-        <Text textAlign="center">
+        <Text >
           Выберите наиболее подходящий для вас тариф на сервисе. <br />
           Стоимость зависит от количества объявлений.
         </Text>

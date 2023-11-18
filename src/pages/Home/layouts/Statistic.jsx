@@ -3,7 +3,7 @@ import { Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
 const Statistic = () => {
   return (
     <Flex
-      gap="50px"
+      gap="20px"
       py="35px"
       px="42"
       bg="#FAFAFA"

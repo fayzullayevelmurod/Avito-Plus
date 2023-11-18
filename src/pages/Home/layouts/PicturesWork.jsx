@@ -6,11 +6,12 @@ const PicturesWork = () => {
   return (
     <Flex
       gap="50px"
-      py="35px"
-      px="42"
+      py="34px"
+      px="40px"
       bg="#FAFAFA"
       borderRadius="35px"
       my="15px"
+      alignItems='center'
     >
       <Box>
         <Box
@@ -42,12 +43,12 @@ const PicturesWork = () => {
         </Link>
       </Box>
       <Box textAlign="center">
-        <Image src="/assets/images/disk-folder.png" alt="" />
+        <Image src="/assets/images/disk-folder.png" w={120} h={90} alt="" />
         <Text fontSize="14px" fontWeight="600">
           Avito Plus
         </Text>
       </Box>
-      <Image src="/assets/images/image-folder.png" alt="" />
+      <Image src="/assets/images/image-folder.png" alt=""  />
     </Flex>
   );
 };

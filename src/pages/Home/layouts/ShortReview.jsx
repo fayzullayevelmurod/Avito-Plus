@@ -12,7 +12,7 @@ export default function ShortReview() {
         <Text fontSize="14px" my="17px">Используйте разное время публикации, разные станции метро и адреса, отслеживайте статистику и включайте рекламу — <br />
           Это все не покидая таблицы. </Text>
         <Link to="/auth/login">
-          <Button px="16px" borderRadius="39px" mr="20px">Начать сейчас</Button>
+          <Button px="16px" borderRadius="39px" mr="30px">Начать сейчас</Button>
         </Link>
         <Link to="/futures">
           <Button px="16px" borderRadius="39px" bg="#EDF2F7" color="black" borderColor="white">Возможности</Button>

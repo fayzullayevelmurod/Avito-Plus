@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 export default function AvitoInfo() {
   return (
-    <Flex justify="space-between" align="center" gap="20px" py="20px">
+    <Flex justify="space-between" align="center" gap="37px" py="20px">
       <Flex direction="column" borderRadius="35px" maxW="323px" h="611px" bg="#FAFAFA" py="32px" px="38px">
         <Flex align="center" justify="center" bg="#805AD5" w="67px" h="67px" borderRadius="50%">
           <CopyIcon color="white" boxSize={6} />

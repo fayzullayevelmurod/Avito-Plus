@@ -16,7 +16,7 @@ const AvitoPlus = () => {
         <Text fontSize="14px" my="18px">
           Одна строка в таблице, равна одному объявлению
         </Text>
-        <Image src="/assets/images/table.png" alt="" />
+        <Image src="/assets/images/table.png" alt="" w='258px' h='179px' />
       </Box>
       <Box>
         <Heading

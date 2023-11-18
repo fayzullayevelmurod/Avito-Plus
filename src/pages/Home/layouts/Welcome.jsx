@@ -91,7 +91,8 @@ export default function Welcome() {
         <Spacer />
         <Box
           w="600px"
-          p={50}
+          py='34px'
+          px='49px'
           bg="#FFF"
           borderRadius="35px"
           boxShadow="0px 4px 64.8px 0px rgba(0, 0, 0, 0.15)"
@@ -109,13 +110,13 @@ export default function Welcome() {
             Получайте больше заявок <br /> — используя Avito Plus
           </Heading>
           <Flex gap="44px" mt="36px" position="relative">
-            <Image src="/assets/images/arrow.png" alt="" w='50px' h='50px' position='absolute' left='-70px' />
+            <Image src="/assets/images/arrow.png" alt="" w='60px' h='60px' position='absolute' left='-70px' />
             <Box>
               <Text
                 color="#2D3748"
                 fontSize="14px"
                 fontStyle="normal"
-                fontWeight={500}
+                fontWeight={600}
                 lineHeight="20px"
               >
                 Просмотры
@@ -138,7 +139,7 @@ export default function Welcome() {
                 color="#2D3748"
                 fontSize="14px"
                 fontStyle="normal"
-                fontWeight={500}
+                fontWeight={600}
                 lineHeight="20px"
               >
                 Конверсия
@@ -161,7 +162,7 @@ export default function Welcome() {
                 color="#2D3748"
                 fontSize="14px"
                 fontStyle="normal"
-                fontWeight={500}
+                fontWeight={600}
                 lineHeight="20px"
               >
                 Сообщения
@@ -184,7 +185,7 @@ export default function Welcome() {
                 color="#2D3748"
                 fontSize="14px"
                 fontStyle="normal"
-                fontWeight={500}
+                fontWeight={600}
                 lineHeight="20px"
               >
                 Избранное
