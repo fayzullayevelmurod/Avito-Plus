@@ -7,6 +7,7 @@ export default function Button(props) {
       border="1px"
       borderColor="@805AD5"
       borderRadius="6px"
+      transition="0.3s"
       bg="#805AD5"
       color="white"
       _hover={{
