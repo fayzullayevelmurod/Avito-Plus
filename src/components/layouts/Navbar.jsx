@@ -1,7 +1,6 @@
 import { Flex, Image, Link, Text } from "@chakra-ui/react";
 
-import Button from '../common/Button'
-import Container from '../common/Container'
+import { Container, Button } from '../common'
 
 export default function Navbar() {
   return (
@@ -10,10 +9,10 @@ export default function Navbar() {
         <Link href='/'>
           <Image src='/assets/images/logo.png' alt='Logo' />
         </Link>
-        <Button>
-          <Text fontSize='14px'>Вход / Регистрация</Text>
+        <Button px="12px" py="10px">
+          <Text fontSize='14px' fontWeight="600" lineHeight="20px">Вход / Регистрация</Text>
         </Button>
       </Flex>
-    </Container>
+    </Container >
   )
 }
