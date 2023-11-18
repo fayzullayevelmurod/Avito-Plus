@@ -1,7 +1,8 @@
-import { Button } from '@chakra-ui/react'
+// Pages
+import Home from './pages/Home/Home'
 
 export default function App() {
   return (
-    <Button colorScheme='blue'>Button</Button>
+    <Home />
   )
 }
