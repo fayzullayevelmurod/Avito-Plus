@@ -61,7 +61,7 @@ export default function Subscription() {
             </Heading>
 
             <Link to="/subscriptions">
-              <Button>
+              <Button type="outline" bg="white">
                 <Text>Начать</Text>
               </Button>
             </Link>

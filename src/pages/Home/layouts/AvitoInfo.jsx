@@ -41,7 +41,7 @@ export default function AvitoInfo() {
             bottom="25px" />
         </Box>
         <Link to="/randomizer">
-          <Button w="100%" mt="30px" >
+          <Button type="outline" w="100%" mt="30px" >
             <Text>Рандомизатор</Text>
           </Button>
         </Link>
@@ -101,7 +101,7 @@ export default function AvitoInfo() {
           </Flex>
         </Flex>
         <Link to="/about">
-          <Button w="100%" >
+          <Button type="outline" w="100%" >
             <Text>База знаний Avito Plus</Text>
           </Button>
         </Link>
