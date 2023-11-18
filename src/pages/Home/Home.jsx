@@ -14,8 +14,8 @@ export default function Home() {
   return (
     <Container>
       {/* <Welcome /> */}
-      {/* <ShortReview /> */}
-      {/* <AvitoInfo /> */}
+      <ShortReview />
+      <AvitoInfo />
       {/* <PicturesWork /> */}
       {/* <AvitoPlus /> */}
       {/* <Statistic /> */}

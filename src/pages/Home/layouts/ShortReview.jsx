@@ -22,7 +22,7 @@ export default function ShortReview() {
         </Heading>
         <Text textAlign={{ base: 'center', md: 'unset' }} fontSize="14px" my="17px">Используйте разное время публикации, разные станции метро и адреса, отслеживайте статистику и включайте рекламу — <br />
           Это все не покидая таблицы. </Text>
-        <Flex gap={{ base: "10px", md: "30px" }} flexWrap="wrap" justify="center">
+        <Flex gap={{ base: "10px", md: "30px" }} flexWrap="wrap" justify={{ base: 'center', sm: 'flex-start' }}>
           <Link to="/auth/login">
             <Button px="16px" borderRadius="39px">Начать сейчас</Button>
           </Link>
