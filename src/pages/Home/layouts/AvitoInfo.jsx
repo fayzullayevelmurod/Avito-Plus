@@ -62,7 +62,7 @@ export default function AvitoInfo() {
         <Flex mt="45px" mb="53px" align="center" justify="space-between">
           <Image src="/assets/images/user-art.png" alt="user-art" />
           <Flex direction="column" align="flex-end" gap="12px">
-            <Box w="290px" py="10px" px="20px" bg="#805AD5" borderRadius="93px" position="relative">
+            <Box w="300px" py="10px" px="20px" bg="#805AD5" borderRadius="93px" position="relative">
               <Text color="white" fontSize="16px" fontWeight="600">
                 📍 Постинг по адресам и метро
               </Text>
