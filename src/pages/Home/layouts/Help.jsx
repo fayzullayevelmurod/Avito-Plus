@@ -1,5 +1,6 @@
 import { Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
 import { Button } from "../../../components/common";
+import { Link } from "react-router-dom";
 
 const Help = () => {
   return (
@@ -25,9 +26,11 @@ const Help = () => {
             Создайте свой первый аккаунт и вы получите 7 дней бесплатного
             доступа к сервису.
           </Text>
-          <Button bg="#805AD5" color="white" _active="red">
-            Начать сейчас
-          </Button>
+          <Link to="/subscriptions">
+            <Button bg="#805AD5" color="white" _active="red">
+              Начать сейчас
+            </Button>
+          </Link>
         </Box>
         <Image src="/assets/images/hobby.png" alt="" />
       </Flex>

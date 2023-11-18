@@ -4,6 +4,7 @@ import { Box, Flex, Heading, Text } from "@chakra-ui/react";
 
 import { Button } from "../../../components/common";
 import { plans } from "../mock";
+import { Link } from "react-router-dom";
 
 export default function Subscription() {
   return (
@@ -59,9 +60,11 @@ export default function Subscription() {
               {plan.price} {plan.price !== "Бесплатно" && "руб."}
             </Heading>
 
-            <Button>
-              <Text>Начать</Text>
-            </Button>
+            <Link to="/subscriptions">
+              <Button>
+                <Text>Начать</Text>
+              </Button>
+            </Link>
           </Flex>
         </Fragment>
       ))}

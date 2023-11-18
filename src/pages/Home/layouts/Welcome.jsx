@@ -1,6 +1,7 @@
-import { Box, Flex, Heading, Spacer, Text , Image } from "@chakra-ui/react";
+import { Box, Flex, Heading, Spacer, Text, Image } from "@chakra-ui/react";
 import { Button } from "../../../components/common";
 import { TriangleUpIcon } from "@chakra-ui/icons";
+import { Link } from "react-router-dom";
 
 export default function Welcome() {
   return (
@@ -47,7 +48,9 @@ export default function Welcome() {
           Используйте Google Таблицы для управления Avito аккаунтами.
           Добавляйте, клонируйте и редактируйте объявления в пару кликов.
         </Text>
-        <Button>Начните сейчас</Button>
+        <Link to="/auth/login">
+          <Button>Начните сейчас</Button>
+        </Link>
       </Box>
       <Flex px="44px" mb={20} >
         <Box
