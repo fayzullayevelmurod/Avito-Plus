@@ -1,12 +1,27 @@
-import { Box, Heading } from "@chakra-ui/react";
+import { Flex, Text } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 import { Container } from "../common";
 
 export default function Footer() {
   return (
-    <Box bg="#FAFAFA">
+    <Flex bg="#FAFAFA" h="71px" justify="center" align="center">
       <Container>
-        <Heading>Footer</Heading>
+        <Flex justify="space-between" align="center" gap="20px">
+          <Text>@ 2023 Avito Plus - ИП Иванов Иван Иванович ИНН 7729773587</Text>
+          <Flex justify="space-between" align="center" gap="20px">
+            <Link to="/privacy-policy">
+              <Text _hover={{ textDecoration: "underline" }}>
+                Политика конфиденциальности
+              </Text>
+            </Link>
+            <Link to="/Oferta">
+              <Text _hover={{ textDecoration: "underline" }}>
+                Оферта
+              </Text>
+            </Link>
+          </Flex>
+        </Flex>
       </Container>
-    </Box>
+    </Flex>
   )
 }
