@@ -39,7 +39,7 @@ const PicturesWork = () => {
           фотографии сами подгрузятся на Авито.
         </Text>
         <Link to="/cloud">
-          <Button>Яндекс Диск</Button>
+          <Button type="outline" w="239px">Яндекс Диск</Button>
         </Link>
       </Box>
       <Box textAlign="center">
@@ -48,7 +48,7 @@ const PicturesWork = () => {
           Avito Plus
         </Text>
       </Box>
-      <Image src="/assets/images/image-folder.png" alt=""  />
+      <Image src="/assets/images/image-folder.png" alt="folder" />
     </Flex>
   );
 };

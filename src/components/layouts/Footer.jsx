@@ -4,11 +4,25 @@ import { Container } from "../common";
 
 export default function Footer() {
   return (
-    <Flex bg="#FAFAFA" h="71px" justify="center" align="center" fontSize="14px">
+    <Flex
+      bg="#FAFAFA"
+      minH="71px"
+      justify="center"
+      align="center"
+      fontSize="14px" >
       <Container>
-        <Flex justify="space-between" align="center" gap="20px">
-          <Text>@ 2023 Avito Plus - ИП Иванов Иван Иванович ИНН 7729773587</Text>
-          <Flex justify="space-between" align="center" gap="20px">
+        <Flex
+          direction={{ base: 'column', lg: 'row' }}
+          justify={{ base: 'center', lg: 'space-between' }}
+          align="center"
+          py={{ base: '10px', lg: 'unset' }}
+          gap={{ base: '10px', lg: '20px' }}>
+          <Text textAlign="center">@ 2023 Avito Plus - ИП Иванов Иван Иванович ИНН 7729773587</Text>
+          <Flex
+            justify="space-between"
+            align="center"
+            gap={{ base: '10px', lg: '20px' }}
+            direction={{ base: 'column', lg: 'row' }}>
             <Link to="/privacy-policy">
               <Text _hover={{ textDecoration: "underline" }}>
                 Политика конфиденциальности
@@ -22,6 +36,6 @@ export default function Footer() {
           </Flex>
         </Flex>
       </Container>
-    </Flex>
+    </Flex >
   )
 }

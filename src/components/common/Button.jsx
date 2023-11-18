@@ -6,7 +6,7 @@ export default function Button(props) {
     return (
       <ChakraButton
         border="1px"
-        borderColor="@805AD5"
+        borderColor="#805AD5"
         borderRadius="6px"
         transition="0.4s"
         bg="#FAFAFA"
