@@ -22,7 +22,7 @@ export default function ShortReview() {
         </Heading>
         <Text textAlign={{ base: 'center', md: 'unset' }} fontSize="14px" my="17px">Используйте разное время публикации, разные станции метро и адреса, отслеживайте статистику и включайте рекламу — <br />
           Это все не покидая таблицы. </Text>
-        <Flex gap={{ base: "10px", md: "30px" }} flexWrap="wrap" justify="center">
+        <Flex gap={{ base: "10px", md: "30px" }} flexWrap="wrap" justify={{ base: 'center', sm: 'flex-start' }}>
           <Link to="/auth/login">
             <Button px="16px" borderRadius="39px">Начать сейчас</Button>
           </Link>
@@ -42,17 +42,17 @@ export default function ShortReview() {
           maxW='459px'
           h="332px"
           mt="100px"
-          borderRadius="20px"
+          pt={{ sm: "30px", lg: "0px" }}
           ml={{ base: 'unset', md: "-20px" }}
-          overflow="hidden">
-          <AspectRatio maxW="inherit" ratio={1.38}>
+        >
+          <AspectRatio ratio={1.38}>
             <iframe
-              title='video'
+              style={{ borderRadius: '20px' }}
               src='https://www.youtube.com/embed/CgAx5YpU6Ko?si=rBKxKDJPwwWZtf74'
             />
           </AspectRatio>
         </Box>
-      </Box>
+      </Box >
     </Flex >
   )
 }

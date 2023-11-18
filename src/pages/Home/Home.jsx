@@ -15,11 +15,11 @@ export default function Home() {
     <Container>
       {/* <Welcome /> */}
       <ShortReview />
-      {/* <AvitoInfo /> */}
+      <AvitoInfo />
       {/* <PicturesWork /> */}
       {/* <AvitoPlus /> */}
       {/* <Statistic /> */}
-      {/* <Subscription /> */}
+      <Subscription />
       {/* <Help /> */}
     </Container>
   );
