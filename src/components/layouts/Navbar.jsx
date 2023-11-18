@@ -9,7 +9,7 @@ export default function Navbar() {
     <Container>
       <Flex w="100%" h="60px" py="13px" align="center" justify="space-between">
         <Link to='/'>
-          <Image src='/assets/images/logo.png' alt='Logo' />
+          <Image src='/assets/svg/logo.svg' alt='Logo' />
         </Link>
         <Link to="/auth/login">
           <Button px="12px" py="10px">
