@@ -2,6 +2,10 @@
 import AvitoInfo from "./layouts/AvitoInfo";
 import ShortReview from "./layouts/ShortReview";
 import Welcome from "./layouts/Welcome";
+import PicturesWork from "./layouts/PicturesWork";
+import AvitoPlus from "./layouts/AvitoPlus";
+import Statistic from "./layouts/Statistic";
+import Help from "./layouts/Help";
 
 import { Container } from "../../components/common";
 
@@ -11,6 +15,10 @@ export default function Home() {
       <Welcome />
       <ShortReview />
       <AvitoInfo />
+      <PicturesWork />
+      <AvitoPlus />
+      <Statistic />
+      <Help />
     </Container>
-  )
+  );
 }

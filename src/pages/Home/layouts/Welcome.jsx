@@ -1,10 +1,10 @@
-import { Box, Flex, Heading, Spacer, Text } from "@chakra-ui/react";
-import { Container, Button } from "../../../components/common";
+import { Box, Flex, Heading, Spacer, Text , Image } from "@chakra-ui/react";
+import { Button } from "../../../components/common";
 import { TriangleUpIcon } from "@chakra-ui/icons";
 
 export default function Welcome() {
   return (
-    <Container>
+    <Box>
       <Box
         bg="#FAFAFA"
         px="150px"
@@ -59,7 +59,7 @@ export default function Welcome() {
           mt="-100px"
         >
           <Box bg="#EFEFEF" py="20px" px="26px" borderRadius="35px">
-            <img src="/assets/images/google_sheets.png" alt="" />
+            <Image src="/assets/images/google-sheets.png" alt="" />
           </Box>
           <Heading
             color="#FFF"
@@ -105,7 +105,8 @@ export default function Welcome() {
           >
             Получайте больше заявок <br /> — используя Avito Plus
           </Heading>
-          <Flex gap="44px" mt="36px">
+          <Flex gap="44px" mt="36px" position="relative">
+            <Image src="/assets/images/arrow.png" alt="" w='50px' h='50px' position='absolute' left='-70px' />
             <Box>
               <Text
                 color="#2D3748"
@@ -201,6 +202,6 @@ export default function Welcome() {
           </Flex>
         </Box>
       </Flex>
-    </Container>
+    </Box>
   );
 }
