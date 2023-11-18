@@ -8,17 +8,16 @@ export default function Welcome() {
     <Box>
       <Box
         bg="#FAFAFA"
-        px="150px"
-        pt="65px"
-        pb="128px"
+        px={{ base: "20px", md: "150px" }}
+        pt={{ base: "40px", md: "65px" }}
+        pb={{ base: "80px", md: "128px" }}
         borderRadius="35px"
         textAlign="center"
-        mt="82px"
+        mt={{ base: "40px", md: "82px" }}
       >
         <Heading
-          fontSize="53px"
+          fontSize={{ base: "36px", md: "53px" }}
           fontFamily="heading"
-          fontStyle="normal"
           fontWeight={900}
           lineHeight="100%"
           letterSpacing="-0.55px"
@@ -38,12 +37,11 @@ export default function Welcome() {
           — Управляй объявлениями
         </Heading>
         <Text
-          fontSize="16px"
+          fontSize={{ base: "14px", md: "16px" }}
           fontFamily="heading"
-          fontStyle="normal"
           fontWeight={400}
           lineHeight="150%"
-          py="30px"
+          py={{ base: "20px", md: "30px" }}
         >
           Используйте Google Таблицы для управления Avito аккаунтами.
           Добавляйте, клонируйте и редактируйте объявления в пару кликов.
@@ -52,14 +50,18 @@ export default function Welcome() {
           <Button>Начните сейчас</Button>
         </Link>
       </Box>
-      <Flex px="44px" mb={20} >
+      <Flex
+        direction={{ base: "column", md: "row" }}
+        px={{ base: "10px", md: "44px" }}
+        mb={{ base: "10px", md: "20px" }}
+      >
         <Box
-          bg="#805AD5;"
-          p="20px"
+          bg="#805AD5"
+          p={{ base: "10px", md: "20px" }}
           borderRadius="35px"
-          w="230px"
+          w={{ base: "100%", md: "230px" }}
           textAlign="center"
-          mt="-100px"
+          mt={{ base: "-50px", md: "-100px" }}
         >
           <Box bg="#EFEFEF" py="20px" px="26px" borderRadius="35px">
             <Image src="/assets/images/google-sheets.png" alt="" />
@@ -90,13 +92,13 @@ export default function Welcome() {
         </Box>
         <Spacer />
         <Box
-          w="600px"
-          py='34px'
-          px='49px'
+          w={{ base: "100%", md: "600px" }}
+          py={{ base: "20px", md: "34px" }}
+          px={{ base: "10px", md: "49px" }}
           bg="#FFF"
           borderRadius="35px"
           boxShadow="0px 4px 64.8px 0px rgba(0, 0, 0, 0.15)"
-          mt="-50px"
+          mt={{ base: "30px", md: "-50px" }}
         >
           <Heading
             color="#000"
@@ -110,7 +112,15 @@ export default function Welcome() {
             Получайте больше заявок <br /> — используя Avito Plus
           </Heading>
           <Flex gap="44px" mt="36px" position="relative">
-            <Image src="/assets/images/arrow.png" alt="" w='60px' h='60px' position='absolute' left='-70px' />
+            <Image
+              src="/assets/images/arrow.png"
+              alt=""
+              w="60px"
+              h="60px"
+              position="absolute"
+              display={{ base: "none", md: "block" }}
+              left="-70px"
+            />
             <Box>
               <Text
                 color="#2D3748"
@@ -131,7 +141,8 @@ export default function Welcome() {
                 👀 783
               </Text>
               <Text>
-                <TriangleUpIcon color='#48BB78' boxSize="12px" mr='10px' /> 87.09%
+                <TriangleUpIcon color="#48BB78" boxSize="12px" mr="10px" />{" "}
+                87.09%
               </Text>
             </Box>
             <Box>
@@ -154,7 +165,8 @@ export default function Welcome() {
                 📊 23%
               </Text>
               <Text>
-                <TriangleUpIcon color='#48BB78' boxSize="12px" mr='10px' /> 65.31%
+                <TriangleUpIcon color="#48BB78" boxSize="12px" mr="10px" />{" "}
+                65.31%
               </Text>
             </Box>
             <Box>
@@ -177,7 +189,8 @@ export default function Welcome() {
                 💬 34
               </Text>
               <Text>
-                <TriangleUpIcon color='#48BB78' boxSize="12px" mr='10px' /> 79.48%
+                <TriangleUpIcon color="#48BB78" boxSize="12px" mr="10px" />{" "}
+                79.48%
               </Text>
             </Box>
             <Box>
@@ -200,7 +213,8 @@ export default function Welcome() {
                 💜 45
               </Text>
               <Text>
-                <TriangleUpIcon color='#48BB78' boxSize="12px" mr='10px' /> 55.44%
+                <TriangleUpIcon color="#48BB78" boxSize="12px" mr="10px" />{" "}
+                55.44%
               </Text>
             </Box>
           </Flex>
