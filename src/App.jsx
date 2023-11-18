@@ -1,14 +1,26 @@
+import {
+  Route,
+  RouterProvider,
+  createBrowserRouter,
+  createRoutesFromElements
+} from 'react-router-dom'
+
 // Pages
 import Home from './pages/Home/Home'
+import PageNotFound from './pages/PageNotFound'
 
 // Layouts
-import Navbar from './components/layouts/Navbar'
+import RootLayout from './components/layouts/RootLayout'
 
 export default function App() {
-  return (
-    <>
-      <Navbar />
-      <Home />
-    </>
+  const routes = createBrowserRouter(
+    createRoutesFromElements(
+      <Route path='/' element={<RootLayout />}>
+        <Route index element={<Home />} />
+        <Route path='*' element={<PageNotFound />} />
+      </Route>
+    )
   )
+
+  return <RouterProvider router={routes} />
 }
