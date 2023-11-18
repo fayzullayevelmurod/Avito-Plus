@@ -42,17 +42,17 @@ export default function ShortReview() {
           maxW='459px'
           h="332px"
           mt="100px"
-          borderRadius="20px"
+          pt={{ sm: "30px", lg: "0px" }}
           ml={{ base: 'unset', md: "-20px" }}
-          overflow="hidden">
-          <AspectRatio maxW="inherit" ratio={1.38}>
+        >
+          <AspectRatio ratio={1.38}>
             <iframe
-              title='video'
+              style={{ borderRadius: '20px' }}
               src='https://www.youtube.com/embed/CgAx5YpU6Ko?si=rBKxKDJPwwWZtf74'
             />
           </AspectRatio>
         </Box>
-      </Box>
+      </Box >
     </Flex >
   )
 }

@@ -14,12 +14,12 @@ export default function Home() {
   return (
     <Container>
       {/* <Welcome /> */}
-      <ShortReview />
+      {/* <ShortReview /> */}
       {/* <AvitoInfo /> */}
       {/* <PicturesWork /> */}
       {/* <AvitoPlus /> */}
       {/* <Statistic /> */}
-      {/* <Subscription /> */}
+      <Subscription />
       {/* <Help /> */}
     </Container>
   );
