@@ -6,6 +6,7 @@ import PicturesWork from "./layouts/PicturesWork";
 import AvitoPlus from "./layouts/AvitoPlus";
 import Statistic from "./layouts/Statistic";
 import Help from "./layouts/Help";
+import Subscription from "./layouts/Subscription";
 
 import { Container } from "../../components/common";
 
@@ -18,6 +19,7 @@ export default function Home() {
       <PicturesWork />
       <AvitoPlus />
       <Statistic />
+      <Subscription />
       <Help />
     </Container>
   );
