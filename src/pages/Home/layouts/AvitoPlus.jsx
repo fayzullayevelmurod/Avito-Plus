@@ -4,10 +4,18 @@ const AvitoPlus = () => {
   return (
     <Flex
       direction={{ base: "column", md: "row" }}
+      py={{ base: "30px", md: "unset" }}
       my="15px"
       gap="50px"
       alignItems="center">
-      <Box bg="bg.gray" borderRadius="35px" p="40px" w="300px">
+      <Box
+        bg="bg.gray"
+        borderRadius="35px"
+        py={{ base: "20px", lg: "40px" }}
+        px="40px"
+        w="300px"
+        minH="410px"
+        maxH="410px">
         <Heading
           mt="26px"
           mb="10px"
@@ -59,7 +67,14 @@ const AvitoPlus = () => {
             marginLeft="10px" />{" "}
         </Text>
       </Box>
-      <Box bg="bg.gray" borderRadius="35px" p="40px" w="300px">
+      <Box
+        bg="bg.gray"
+        borderRadius="35px"
+        py={{ base: "20px", lg: "40px" }}
+        px="40px"
+        w="300px"
+        minH="410px"
+        maxH="410px">
         <Heading
           mt="26px"
           mb="10px"

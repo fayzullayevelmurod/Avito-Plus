@@ -51,21 +51,22 @@ export default function ShortReview() {
         w="100%"
         h={{ base: 'unset', md: "535px" }}
       >
-        <AspectRatio
-          maxW='459px'
-          h="332px"
-          mt={{ base: "0px", md: "100px" }}
-          pt={{ base: "30px", sm: "30px", lg: "0px" }}
-          mr={{ base: 'auto', md: "20px" }}
-          ml="auto"
-        >
-          <iframe
-            width="100%"
-            height="100%"
-            style={{ borderRadius: '20px' }}
-            src='https://www.youtube.com/embed/CgAx5YpU6Ko?si=rBKxKDJPwwWZtf74'
-          />
-        </AspectRatio>
+        <Box pt={{ base: "0px", md: "50px", lg: "0px" }}>
+          <AspectRatio
+            maxW='459px'
+            h={{ base: "270px", md: "250px", lg: "332px" }}
+            mt={{ base: "0px", md: "100px" }}
+            mr={{ base: 'auto', md: "20px" }}
+            ml="auto"
+          >
+            <iframe
+              width="100%"
+              height="100%"
+              style={{ borderRadius: '20px' }}
+              src='https://www.youtube.com/embed/CgAx5YpU6Ko?si=rBKxKDJPwwWZtf74'
+            />
+          </AspectRatio>
+        </Box>
       </Box >
     </Flex >
   )
