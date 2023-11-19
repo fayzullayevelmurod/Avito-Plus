@@ -20,9 +20,19 @@ export default function ShortReview() {
         >
           Краткий обзор <br /><Box as="span" color="#805AD5">— 120 секунд</Box>
         </Heading>
-        <Text textAlign={{ base: 'center', md: 'unset' }} fontSize="14px" my="17px">Используйте разное время публикации, разные станции метро и адреса, отслеживайте статистику и включайте рекламу — <br />
-          Это все не покидая таблицы. </Text>
-        <Flex gap={{ base: "10px", md: "30px" }} flexWrap="wrap" justify={{ base: 'center', sm: 'flex-start' }}>
+        <Text
+          textAlign={{ base: 'center', md: 'unset' }}
+          fontSize="14px"
+          my="17px"
+        >
+          Используйте разное время публикации, разные станции метро и адреса, отслеживайте статистику и включайте рекламу — <br />
+          Это все не покидая таблицы.
+        </Text>
+        <Flex
+          gap={{ base: "10px", md: "30px" }}
+          flexWrap="wrap"
+          justify={{ base: 'center', md: 'flex-start' }}
+        >
           <Link to="/auth/login">
             <Button px="16px" borderRadius="39px">Начать сейчас</Button>
           </Link>
@@ -38,20 +48,20 @@ export default function ShortReview() {
         w="450px"
         h={{ base: 'unset', md: "535px" }}
       >
-        <Box
+        <AspectRatio
           maxW='459px'
           h="332px"
-          mt="100px"
-          pt={{ sm: "30px", lg: "0px" }}
+          mt={{ base: "0px", md: "100px" }}
+          pt={{ base: "30px", sm: "30px", lg: "0px" }}
           ml={{ base: 'unset', md: "-20px" }}
         >
-          <AspectRatio ratio={1.38}>
-            <iframe
-              style={{ borderRadius: '20px' }}
-              src='https://www.youtube.com/embed/CgAx5YpU6Ko?si=rBKxKDJPwwWZtf74'
-            />
-          </AspectRatio>
-        </Box>
+          <iframe
+            width="100%"
+            height="100%"
+            style={{ borderRadius: '20px' }}
+            src='https://www.youtube.com/embed/CgAx5YpU6Ko?si=rBKxKDJPwwWZtf74'
+          />
+        </AspectRatio>
       </Box >
     </Flex >
   )

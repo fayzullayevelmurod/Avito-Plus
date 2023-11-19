@@ -23,16 +23,12 @@ export default function Welcome() {
           letterSpacing="-0.55px"
         >
           Продвигай
-          <img
+          <Image
             src="/assets/images/avito-text.png"
-            alt=""
-            style={{
-              display: "inline-block",
-              marginBottom: "-10px",
-              marginLeft: "20px",
-              marginRight: "20px",
-              width: "200px",
-            }}
+            alt="Avito"
+            display="inline-block"
+            mx="20px"
+            w="200px"
           />
           — Управляй объявлениями
         </Heading>
@@ -51,21 +47,27 @@ export default function Welcome() {
         </Link>
       </Box>
       <Flex
-        direction={{ base: "column", md: "row" }}
-        px={{ base: "10px", md: "44px" }}
-        mb={{ base: "10px", md: "20px" }}
+        direction={{ base: "column", lg: "row" }}
+        px={{ base: "0px", lg: "44px" }}
+        mb={{ base: "10px", lg: "20px" }}
       >
         <Box
           bg="#805AD5"
-          p={{ base: "10px", md: "20px" }}
+          p={{ base: "10px", lg: "20px" }}
           borderRadius="35px"
-          w={{ base: "100%", md: "230px" }}
+          w={{ base: "100%", lg: "230px" }}
           textAlign="center"
-          mt={{ base: "-50px", md: "-100px" }}
+          mt={{ base: "-50px", lg: "-100px" }}
         >
-          <Box bg="#EFEFEF" py="20px" px="26px" borderRadius="35px">
+          <Flex
+            justify="center"
+            align="center"
+            bg="#EFEFEF"
+            py="20px"
+            px="26px"
+            borderRadius="35px">
             <Image src="/assets/images/google-sheets.png" alt="" />
-          </Box>
+          </Flex>
           <Heading
             color="#FFF"
             fontFamily="Inter"
@@ -92,13 +94,13 @@ export default function Welcome() {
         </Box>
         <Spacer />
         <Box
-          w={{ base: "100%", md: "600px" }}
-          py={{ base: "20px", md: "34px" }}
-          px={{ base: "10px", md: "49px" }}
+          w={{ base: "100%", lg: "600px" }}
+          py={{ base: "27px", lg: "34px" }}
+          px={{ base: "34px", lg: "49px" }}
           bg="#FFF"
           borderRadius="35px"
           boxShadow="0px 4px 64.8px 0px rgba(0, 0, 0, 0.15)"
-          mt={{ base: "30px", md: "-50px" }}
+          mt={{ base: "20px", lg: "-50px" }}
         >
           <Heading
             color="#000"
@@ -107,18 +109,24 @@ export default function Welcome() {
             fontStyle="normal"
             fontWeight={700}
             lineHeight="120%"
-            maxW={600}
+            maxW="350px"
+            textAlign={{ base: 'center', sm: 'unset' }}
           >
-            Получайте больше заявок <br /> — используя Avito Plus
+            Получайте больше заявок — используя Avito Plus
           </Heading>
-          <Flex gap="44px" mt="36px" position="relative">
+          <Flex
+            justify={{ base: "space-evenly", md: "space-between" }}
+            flexWrap="wrap"
+            gap="44px"
+            mt="36px"
+            position="relative">
             <Image
               src="/assets/images/arrow.png"
-              alt=""
+              alt="arrow"
               w="60px"
               h="60px"
               position="absolute"
-              display={{ base: "none", md: "block" }}
+              display={{ base: "none", lg: "block" }}
               left="-70px"
             />
             <Box>
@@ -219,7 +227,7 @@ export default function Welcome() {
             </Box>
           </Flex>
         </Box>
-      </Flex>
-    </Box>
+      </Flex >
+    </Box >
   );
 }

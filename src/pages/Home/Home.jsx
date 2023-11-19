@@ -13,14 +13,14 @@ import { Container } from "../../components/common";
 export default function Home() {
   return (
     <Container>
-      {/* <Welcome /> */}
-      <ShortReview />
+      <Welcome />
+      {/* <ShortReview /> */}
       <AvitoInfo />
-      {/* <PicturesWork /> */}
-      {/* <AvitoPlus /> */}
-      {/* <Statistic /> */}
+      <PicturesWork />
+      <AvitoPlus />
+      <Statistic />
       <Subscription />
-      {/* <Help /> */}
+      <Help />
     </Container>
   );
 }

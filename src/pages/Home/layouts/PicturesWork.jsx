@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 const PicturesWork = () => {
   return (
     <Flex
+      direction={{ base: "column", md: "row" }}
       gap="50px"
       py="34px"
       px="40px"
@@ -39,17 +40,25 @@ const PicturesWork = () => {
           фотографии сами подгрузятся на Авито.
         </Text>
         <Link to="/cloud">
-          <Button type="outline" w="239px">Яндекс Диск</Button>
+          <Button
+            type="outline"
+            w={{ base: "100%", sm: "239px" }}
+          >
+            Яндекс Диск</Button>
         </Link>
       </Box>
       <Box textAlign="center">
-        <Image src="/assets/images/disk-folder.png" w={120} h={90} alt="" />
+        <Image
+          src="/assets/images/disk-folder.png"
+          minW="100px"
+          minH="90px"
+          alt="folder" />
         <Text fontSize="14px" fontWeight="600">
           Avito Plus
         </Text>
       </Box>
       <Image src="/assets/images/image-folder.png" alt="folder" />
-    </Flex>
+    </Flex >
   );
 };
 

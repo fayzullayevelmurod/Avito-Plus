@@ -4,8 +4,16 @@ import { Link } from "react-router-dom";
 
 const Help = () => {
   return (
-    <Flex my="50px" gap="28px">
-      <Flex gap="18px" py="10px" px="16px" bg="#FAFAFA" borderRadius="35px">
+    <Flex justify="center" align="center" direction={{ base: "column", lg: "row" }} my="50px" gap="28px">
+      <Flex
+        direction={{ base: "column", sm: "row" }}
+        align={{ base: "center", sm: "flex-start" }}
+        maxW="486px"
+        gap="18px"
+        py={{ base: "20px", sm: "10px" }}
+        px="16px"
+        bg="#FAFAFA"
+        borderRadius="35px">
         <Box pt="30px">
           <Heading fontSize="22px" fontWeight="700" color="black">
             Поддержка
@@ -14,25 +22,31 @@ const Help = () => {
             Мы на связи, напишите нам, с радостью ответим на все ваши вопросы.
           </Text>
         </Box>
-        <Image src="/assets/images/profile.png" alt="" />
+        <Image w="213px" src="/assets/images/profile.png" alt="profile-imgage" />
       </Flex>
-      <Flex gap="50px" py="10px" px="16px" bg="#FAFAFA" borderRadius="35px">
+      <Flex
+        direction={{ base: "column", sm: "row" }}
+        maxW="488px"
+        align={{ base: "center", sm: "flex-start" }}
+        gap="50px"
+        py="10px"
+        px="16px"
+        bg="#FAFAFA" borderRadius="35px">
         <Box pt="30px">
           <Heading fontSize="22px" fontWeight="700" color="black">
-            Попробуй — <br />
-            Бесплатно
+            Попробуй — Бесплатно
           </Heading>
           <Text fontSize="14px" my="18px">
             Создайте свой первый аккаунт и вы получите 7 дней бесплатного
             доступа к сервису.
           </Text>
           <Link to="/subscriptions">
-            <Button bg="#805AD5" color="white" _active="red">
+            <Button w={{ base: "100%", sm: "unset" }} bg="#805AD5" color="white" _active="red">
               Начать сейчас
             </Button>
           </Link>
         </Box>
-        <Image src="/assets/images/hobby.png" alt="" />
+        <Image w="209px" src="/assets/images/hobby.png" alt="plans" />
       </Flex>
     </Flex>
   );
