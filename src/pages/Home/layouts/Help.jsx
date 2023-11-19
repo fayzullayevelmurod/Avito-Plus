@@ -1,6 +1,7 @@
 import { Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
-import { Button } from "../../../components/common";
 import { Link } from "react-router-dom";
+
+import { Button } from "@components/common";
 
 const Help = () => {
   return (

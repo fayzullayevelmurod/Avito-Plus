@@ -1,10 +1,10 @@
 import { Fragment } from "react";
+import { Link } from "react-router-dom";
 import { CheckIcon } from "@chakra-ui/icons";
 import { Box, Flex, Heading, Text } from "@chakra-ui/react";
 
-import { Button } from "../../../components/common";
+import { Button } from "@components/common";
 import { plans } from "../mock";
-import { Link } from "react-router-dom";
 
 export default function Subscription() {
   return (

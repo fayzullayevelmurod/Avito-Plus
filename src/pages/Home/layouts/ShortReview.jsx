@@ -1,6 +1,7 @@
 import { AspectRatio, Box, Flex, Heading, Text } from '@chakra-ui/react'
-import { Button } from '../../../components/common'
 import { Link } from 'react-router-dom'
+
+import { Button } from '@components/common'
 
 export default function ShortReview() {
   return (

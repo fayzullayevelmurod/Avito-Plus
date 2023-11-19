@@ -6,11 +6,11 @@ import {
 } from 'react-router-dom'
 
 // Pages
-import Home from './pages/Home/Home'
-import PageNotFound from './pages/PageNotFound'
+import Home from '@pages/Home/Home'
+import PageNotFound from '@pages/NotFound/PageNotFound'
 
 // Layouts
-import RootLayout from './components/layouts/RootLayout'
+import RootLayout from '@components/layouts/RootLayout'
 
 export default function App() {
   const routes = createBrowserRouter(

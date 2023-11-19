@@ -1,7 +1,7 @@
 import { Box, Flex, Heading, Image, Text } from '@chakra-ui/react'
 import { CopyIcon } from '@chakra-ui/icons'
 
-import { Button } from '../../../components/common'
+import { Button } from '@components/common'
 import { Link } from 'react-router-dom'
 
 export default function AvitoInfo() {

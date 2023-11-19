@@ -1,7 +1,8 @@
 import { Box, Flex, Heading, Spacer, Text, Image } from "@chakra-ui/react";
-import { Button } from "../../../components/common";
 import { TriangleUpIcon } from "@chakra-ui/icons";
 import { Link } from "react-router-dom";
+
+import { Button } from "@components/common";
 
 export default function Welcome() {
   return (

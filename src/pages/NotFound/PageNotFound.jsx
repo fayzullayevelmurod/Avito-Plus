@@ -1,6 +1,7 @@
 import { Flex, Heading } from "@chakra-ui/react";
-import { Button, Container } from "../components/common";
 import { Link } from "react-router-dom";
+
+import { Button, Container } from "@components/common";
 
 export default function PageNotFound() {
   return (

@@ -1,6 +1,7 @@
 import { Flex, Text } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
-import { Container } from "../common";
+
+import { Container } from "@components/common";
 
 export default function Footer() {
   return (

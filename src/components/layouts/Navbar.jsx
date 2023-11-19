@@ -1,7 +1,7 @@
 import { Flex, Image, Text } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 
-import { Container, Button } from '../common'
+import { Container, Button } from '@components/common'
 
 export default function Navbar() {
   return (
