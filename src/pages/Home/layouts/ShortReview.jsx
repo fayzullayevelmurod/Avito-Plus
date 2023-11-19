@@ -46,7 +46,8 @@ export default function ShortReview() {
         bgImage={{ base: 'unset', md: "url('/assets/svg/vector.svg')" }}
         bgSize="cover"
         bgPosition="center"
-        w="450px"
+        bgRepeat="no-repeat"
+        w="100%"
         h={{ base: 'unset', md: "535px" }}
       >
         <AspectRatio
@@ -54,7 +55,8 @@ export default function ShortReview() {
           h="332px"
           mt={{ base: "0px", md: "100px" }}
           pt={{ base: "30px", sm: "30px", lg: "0px" }}
-          ml={{ base: 'unset', md: "-20px" }}
+          mr={{ base: 'auto', md: "20px" }}
+          ml="auto"
         >
           <iframe
             width="100%"

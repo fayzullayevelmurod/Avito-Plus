@@ -42,7 +42,7 @@ const Help = () => {
             доступа к сервису.
           </Text>
           <Link to="/subscriptions">
-            <Button w={{ base: "100%", sm: "unset" }} bg="#805AD5" color="white" _active="red">
+            <Button w={{ base: "100%", sm: "unset" }} bg="#805AD5" color="white">
               Начать сейчас
             </Button>
           </Link>
