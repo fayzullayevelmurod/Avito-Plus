@@ -7,7 +7,7 @@ const AvitoPlus = () => {
       my="15px"
       gap="50px"
       alignItems="center">
-      <Box bg="#FAFAFA" borderRadius="35px" p="40px" w="300px">
+      <Box bg="bg.gray" borderRadius="35px" p="40px" w="300px">
         <Heading
           mt="26px"
           mb="10px"
@@ -17,7 +17,7 @@ const AvitoPlus = () => {
         >
           Редактируйте <br /> Google Таблицу
         </Heading>
-        <Text fontSize="14px" my="18px">
+        <Text color="black" fontSize="14px" my="18px">
           Одна строка в таблице, равна одному объявлению
         </Text>
         <Box maxW="258px">
@@ -34,9 +34,10 @@ const AvitoPlus = () => {
           fontStyle="normal"
           fontWeight={800}
           lineHeight="120%"
+          color="black"
         >
           Как работает
-          <Text color="#805AD5">— Avito Plus?</Text>
+          <Text color="purple">— Avito Plus?</Text>
         </Heading>
         <Text
           display="flex"
@@ -47,6 +48,7 @@ const AvitoPlus = () => {
           fontStyle="normal"
           fontWeight={700}
           lineHeight="120%"
+          color="black"
           ml={{ base: '10px', md: 'unset' }}
         >
           Выгрузка на Авито <br /> раз в 60 минут{" "}
@@ -57,7 +59,7 @@ const AvitoPlus = () => {
             marginLeft="10px" />{" "}
         </Text>
       </Box>
-      <Box bg="#FAFAFA" borderRadius="35px" p="40px" w="300px">
+      <Box bg="bg.gray" borderRadius="35px" p="40px" w="300px">
         <Heading
           mt="26px"
           mb="10px"
@@ -67,7 +69,7 @@ const AvitoPlus = () => {
         >
           Авито публикует объявления
         </Heading>
-        <Text fontSize="14px" my="18px">
+        <Text color="black" fontSize="14px" my="18px">
           Если в объявлении ошибка — мы отобразим ее в таблице рядом с
           объявлением
         </Text>

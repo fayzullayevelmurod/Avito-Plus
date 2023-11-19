@@ -13,13 +13,13 @@ const Help = () => {
         gap="18px"
         py={{ base: "20px", sm: "10px" }}
         px="16px"
-        bg="#FAFAFA"
+        bg="bg.gray"
         borderRadius="35px">
         <Box pt="30px">
           <Heading fontSize="22px" fontWeight="700" color="black">
             Поддержка
           </Heading>
-          <Text fontSize="14px" my="18px">
+          <Text color="black" fontSize="14px" my="18px">
             Мы на связи, напишите нам, с радостью ответим на все ваши вопросы.
           </Text>
         </Box>
@@ -32,17 +32,17 @@ const Help = () => {
         gap="50px"
         py="10px"
         px="16px"
-        bg="#FAFAFA" borderRadius="35px">
+        bg="bg.gray" borderRadius="35px">
         <Box pt="30px">
           <Heading fontSize="22px" fontWeight="700" color="black">
             Попробуй — Бесплатно
           </Heading>
-          <Text fontSize="14px" my="18px">
+          <Text color="black" fontSize="14px" my="18px">
             Создайте свой первый аккаунт и вы получите 7 дней бесплатного
             доступа к сервису.
           </Text>
           <Link to="/subscriptions">
-            <Button w={{ base: "100%", sm: "unset" }} bg="#805AD5" color="white">
+            <Button w={{ base: "100%", sm: "unset" }} bg="bg.purple" color="white">
               Начать сейчас
             </Button>
           </Link>

@@ -13,7 +13,7 @@ export default function PageNotFound() {
         direction="column"
         gap="10px"
       >
-        <Heading textAlign="center"
+        <Heading color="black" textAlign="center"
         >Ошибка 404 <br /> Страница не найдена.
         </Heading>
 

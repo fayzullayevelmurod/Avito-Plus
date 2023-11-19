@@ -7,7 +7,7 @@ const Statistic = () => {
       gap="20px"
       py="35px"
       px="42"
-      bg="#FAFAFA"
+      bg="bg.gray"
       borderRadius="35px"
       my="15px"
       alignItems='center'
@@ -19,7 +19,7 @@ const Statistic = () => {
         display="flex"
         alignItems="center"
         justifyContent="center"
-        bg="#805AD5"
+        bg="bg.purple"
       >
         <Image src="/assets/images/chart.png" alt="chart" />
       </Box>
@@ -32,7 +32,7 @@ const Statistic = () => {
           color="black">
           Статистика Авито{" "}
         </Heading>
-        <Text textAlign={{ base: "center", md: "unset" }} fontSize="14px" my="18px">
+        <Text color="black" textAlign={{ base: "center", md: "unset" }} fontSize="14px" my="18px">
           Отслеживайте статистику по объявлениями и Авито аккаунтам.
           Анализируйте и принимайте решения на основе просмотров, конверсий,
           лайков и сообщений.

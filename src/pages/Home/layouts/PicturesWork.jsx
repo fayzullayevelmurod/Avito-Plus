@@ -10,7 +10,7 @@ const PicturesWork = () => {
       gap="50px"
       py="34px"
       px="40px"
-      bg="#FAFAFA"
+      bg="bg.gray"
       borderRadius="35px"
       my="15px"
       alignItems='center'
@@ -23,7 +23,7 @@ const PicturesWork = () => {
           display="flex"
           alignItems="center"
           justifyContent="center"
-          bg="#805AD5"
+          bg="bg.purple"
         >
           <Image src="/assets/images/img-icon.png" alt="" />
         </Box>
@@ -36,7 +36,7 @@ const PicturesWork = () => {
         >
           Удобная работа с фото → Яндекс Диск
         </Heading>
-        <Text fontSize="14px" my="18px">
+        <Text color="black" fontSize="14px" my="18px">
           Загрузите фотографии по папкам, вставьте названия папок в таблицу,
           фотографии сами подгрузятся на Авито.
         </Text>
@@ -54,7 +54,7 @@ const PicturesWork = () => {
           minW="100px"
           minH="90px"
           alt="folder" />
-        <Text fontSize="14px" fontWeight="600">
+        <Text color="black" fontSize="14px" fontWeight="600">
           Avito Plus
         </Text>
       </Box>

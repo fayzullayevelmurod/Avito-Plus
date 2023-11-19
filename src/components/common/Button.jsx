@@ -9,10 +9,10 @@ export default function Button(props) {
         borderColor="#805AD5"
         borderRadius="6px"
         transition="0.4s"
-        bg="#FAFAFA"
-        color="#805AD5"
+        bg="bg.gray"
+        color="purple"
         _hover={{
-          background: "#805AD5",
+          background: "purple",
           color: "white",
           border: "1px solid #805AD5"
         }}
@@ -28,10 +28,10 @@ export default function Button(props) {
         borderColor="@805AD5"
         borderRadius="6px"
         transition="0.4s"
-        bg="#805AD5"
+        bg="bg.purple"
         color="white"
         _hover={{
-          background: "#FAFAFA",
+          background: "lightGray",
           color: "#805AD5",
           border: "1px solid #805AD5"
         }}

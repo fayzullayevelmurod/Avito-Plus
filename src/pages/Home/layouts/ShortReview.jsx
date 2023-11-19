@@ -19,9 +19,10 @@ export default function ShortReview() {
           fontWeight="900"
           textAlign={{ base: 'center', md: 'unset' }}
         >
-          Краткий обзор <br /><Box as="span" color="#805AD5">— 120 секунд</Box>
+          Краткий обзор <br /><Box as="span" color="purple">— 120 секунд</Box>
         </Heading>
         <Text
+          color="black"
           textAlign={{ base: 'center', md: 'unset' }}
           fontSize="14px"
           my="17px"

@@ -8,7 +8,7 @@ export default function Welcome() {
   return (
     <Box>
       <Box
-        bg="#FAFAFA"
+        bg="bg.gray"
         px={{ base: "20px", md: "150px" }}
         pt={{ base: "40px", md: "65px" }}
         pb={{ base: "80px", md: "128px" }}
@@ -22,6 +22,7 @@ export default function Welcome() {
           fontWeight={900}
           lineHeight="100%"
           letterSpacing="-0.55px"
+          color="black"
         >
           Продвигай
           <Image
@@ -39,6 +40,7 @@ export default function Welcome() {
           fontWeight={400}
           lineHeight="150%"
           py={{ base: "20px", md: "30px" }}
+          color="black"
         >
           Используйте Google Таблицы для управления Avito аккаунтами.
           Добавляйте, клонируйте и редактируйте объявления в пару кликов.
@@ -53,7 +55,7 @@ export default function Welcome() {
         mb={{ base: "10px", lg: "20px" }}
       >
         <Box
-          bg="#805AD5"
+          bg="bg.purple"
           p={{ base: "10px", lg: "20px" }}
           borderRadius="35px"
           w={{ base: "100%", lg: "230px" }}
@@ -63,14 +65,14 @@ export default function Welcome() {
           <Flex
             justify="center"
             align="center"
-            bg="#EFEFEF"
+            bg="bg.gray"
             py="20px"
             px="26px"
             borderRadius="35px">
             <Image src="/assets/images/google-sheets.png" alt="" />
           </Flex>
           <Heading
-            color="#FFF"
+            color="white"
             fontFamily="Inter"
             fontSize="25px"
             fontStyle="normal"
@@ -81,7 +83,7 @@ export default function Welcome() {
             10.000+ объявлений
           </Heading>
           <Text
-            color="#FFF"
+            color="white"
             fontFamily="Inter"
             fontSize="14px"
             fontStyle="normal"
@@ -98,13 +100,13 @@ export default function Welcome() {
           w={{ base: "100%", lg: "600px" }}
           py={{ base: "27px", lg: "34px" }}
           px={{ base: "34px", lg: "49px" }}
-          bg="#FFF"
+          bg="bg.white"
           borderRadius="35px"
           boxShadow="0px 4px 64.8px 0px rgba(0, 0, 0, 0.15)"
           mt={{ base: "20px", lg: "-50px" }}
         >
           <Heading
-            color="#000"
+            color="black"
             fontFamily="Inter"
             fontSize="25px"
             fontStyle="normal"
@@ -132,7 +134,7 @@ export default function Welcome() {
             />
             <Box>
               <Text
-                color="#2D3748"
+                color="blue.200"
                 fontSize="14px"
                 fontStyle="normal"
                 fontWeight={600}
@@ -141,7 +143,7 @@ export default function Welcome() {
                 Просмотры
               </Text>
               <Text
-                color=" #2D3748"
+                color="blue.200"
                 fontSize="24px"
                 fontWeight={600}
                 lineHeight="32px"
@@ -149,14 +151,14 @@ export default function Welcome() {
               >
                 👀 783
               </Text>
-              <Text>
-                <TriangleUpIcon color="#48BB78" boxSize="12px" mr="10px" />{" "}
+              <Text color="black">
+                <TriangleUpIcon color="green.200" boxSize="12px" mr="10px" />{" "}
                 87.09%
               </Text>
             </Box>
             <Box>
               <Text
-                color="#2D3748"
+                color="blue.200"
                 fontSize="14px"
                 fontStyle="normal"
                 fontWeight={600}
@@ -165,7 +167,7 @@ export default function Welcome() {
                 Конверсия
               </Text>
               <Text
-                color=" #2D3748"
+                color="blue.200"
                 fontSize="24px"
                 fontWeight={600}
                 lineHeight="32px"
@@ -173,14 +175,14 @@ export default function Welcome() {
               >
                 📊 23%
               </Text>
-              <Text>
-                <TriangleUpIcon color="#48BB78" boxSize="12px" mr="10px" />{" "}
+              <Text color="black">
+                <TriangleUpIcon color="green.200" boxSize="12px" mr="10px" />{" "}
                 65.31%
               </Text>
             </Box>
             <Box>
               <Text
-                color="#2D3748"
+                color="blue.200"
                 fontSize="14px"
                 fontStyle="normal"
                 fontWeight={600}
@@ -189,7 +191,7 @@ export default function Welcome() {
                 Сообщения
               </Text>
               <Text
-                color=" #2D3748"
+                color="blue.200"
                 fontSize="24px"
                 fontWeight={600}
                 lineHeight="32px"
@@ -197,14 +199,14 @@ export default function Welcome() {
               >
                 💬 34
               </Text>
-              <Text>
-                <TriangleUpIcon color="#48BB78" boxSize="12px" mr="10px" />{" "}
+              <Text color="black">
+                <TriangleUpIcon color="green.200" boxSize="12px" mr="10px" />{" "}
                 79.48%
               </Text>
             </Box>
             <Box>
               <Text
-                color="#2D3748"
+                color="blue.200"
                 fontSize="14px"
                 fontStyle="normal"
                 fontWeight={600}
@@ -213,7 +215,7 @@ export default function Welcome() {
                 Избранное
               </Text>
               <Text
-                color=" #2D3748"
+                color="blue.200"
                 fontSize="24px"
                 fontWeight={600}
                 lineHeight="32px"
@@ -221,8 +223,8 @@ export default function Welcome() {
               >
                 💜 45
               </Text>
-              <Text>
-                <TriangleUpIcon color="#48BB78" boxSize="12px" mr="10px" />{" "}
+              <Text color="black">
+                <TriangleUpIcon color="green.200" boxSize="12px" mr="10px" />{" "}
                 55.44%
               </Text>
             </Box>

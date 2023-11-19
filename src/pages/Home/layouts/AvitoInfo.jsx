@@ -18,14 +18,14 @@ export default function AvitoInfo() {
         borderRadius="35px"
         maxW={{ base: '640px', lg: "323px" }}
         h="611px"
-        bg="#FAFAFA"
+        bg="bg.gray"
         py="32px"
         px="38px"
       >
         <Flex
           align="center"
           justify="center"
-          bg="#805AD5"
+          bg="purple"
           w="67px"
           h="67px"
           borderRadius="50%"
@@ -35,7 +35,7 @@ export default function AvitoInfo() {
         <Heading mt="26px" mb="10px" fontSize="22px" fontWeight="700" color="black">
           Сделайте из 100 шт <br />-&gt; 1000 шт
         </Heading>
-        <Text fontSize="14px">
+        <Text color="black" fontSize="14px">
           Используйте встроенную функцию рандомизатора, что бы создать уникальные копии объявлений
         </Text>
         <Box mx="auto" minW="220px" h="220px" mt="35px" mb="30px" position="relative">
@@ -73,14 +73,14 @@ export default function AvitoInfo() {
         borderRadius="35px"
         maxW="640px"
         minH="611px"
-        bg="#FAFAFA"
+        bg="bg.gray"
         py="32px"
         px="38px"
       >
         <Flex
           align="center"
           justify="center"
-          bg="#805AD5"
+          bg="bg.purple"
           w="67px"
           h="67px"
           borderRadius="50%"
@@ -97,7 +97,7 @@ export default function AvitoInfo() {
           Больше объявлений — больше заявок! <br />
           Публикуй объявления как PRO
         </Heading>
-        <Text fontSize="14px">
+        <Text color="black" fontSize="14px">
           Используйте разное время публикации, разные станции метро и адреса, отслеживайте статистику и включайте рекламу — <br />
           Это все не покидая таблицы.
         </Text>
@@ -115,7 +115,7 @@ export default function AvitoInfo() {
               maxW="300px"
               py="10px"
               px="20px"
-              bg="#805AD5"
+              bg="bg.purple"
               borderRadius="93px"
               position="relative"
             >

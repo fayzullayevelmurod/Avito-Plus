@@ -16,6 +16,7 @@ export default function Footer() {
           direction={{ base: 'column', lg: 'row' }}
           justify={{ base: 'center', lg: 'space-between' }}
           align="center"
+          color="black"
           py={{ base: '20px', lg: 'unset' }}
           gap={{ base: '10px', lg: '20px' }}>
 
