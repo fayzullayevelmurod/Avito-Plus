@@ -9,7 +9,7 @@ export default function Welcome() {
     <Box>
       <Box
         bg="bg.gray"
-        px={{ base: "20px", md: "150px" }}
+        px={{ base: "10px", md: "150px" }}
         pt={{ base: "40px", md: "65px" }}
         pb={{ base: "80px", md: "128px" }}
         borderRadius="35px"
@@ -17,7 +17,7 @@ export default function Welcome() {
         mt={{ base: "40px", md: "82px" }}
       >
         <Heading
-          fontSize={{ base: "36px", md: "53px" }}
+          fontSize={{ base: "25px", lg: "53px" }}
           fontFamily="heading"
           fontWeight={900}
           lineHeight="100%"
@@ -30,9 +30,9 @@ export default function Welcome() {
             alt="Avito"
             display="inline-block"
             mx="20px"
-            w="200px"
+            w={{ base: "100px", lg: "200px" }}
           />
-          — Управляй объявлениями
+          —<br />Управляй объявлениями
         </Heading>
         <Text
           fontSize={{ base: "14px", md: "16px" }}
