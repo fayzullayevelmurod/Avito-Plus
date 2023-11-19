@@ -17,7 +17,7 @@ export default function Welcome() {
         mt={{ base: "40px", md: "82px" }}
       >
         <Heading
-          fontSize={{ base: "25px", lg: "53px" }}
+          fontSize={{ base: "22px", sm: "25px", lg: "53px" }}
           fontFamily="heading"
           fontWeight={900}
           lineHeight="100%"
@@ -29,8 +29,8 @@ export default function Welcome() {
             src="/assets/images/avito-text.png"
             alt="Avito"
             display="inline-block"
-            mx="20px"
-            w={{ base: "100px", lg: "200px" }}
+            mx={{ base: "15px", lg: "20px" }}
+            w={{ base: "90px", lg: "200px" }}
           />
           —<br />Управляй объявлениями
         </Heading>
